@@ -92,19 +92,19 @@ if(studentAges[i] % 2==0)
  */
 //Eercise8
 
-/*  let numberArray = [ 30, 49, 28, 10, 36, 57, 83, 34] 
+// let numberArray = [ 30, 49, 28, 10, 36, 57, 83, 34] 
 
- function result(numberArray) {
-    let smallestNum = numberArray[0];
-    for(let i =1; i<numberArray.length; i++){
-        if(numberArray[i] < smallestNum){
-            smallestNum = numberArray[i]
-        }
-    }
-    console.log(smallestNum);
- }
-result(numberArray)
-  */
+//  function result(numberArray) {
+//     let smallestNum = numberArray[0];
+//     for(let i =1; i<numberArray.length; i++){
+//         if(numberArray[i] < smallestNum){
+//             smallestNum = numberArray[i]
+//         }
+//     }
+//     console.log(smallestNum);
+//  }
+// result(numberArray)
+  
 
 //Exercise 9
 /* 
@@ -120,124 +120,154 @@ function result(numberArray) {
  }
 result(numberArray) */
 
-/* //Exercise10
+ //Exercise10
 
- let numberArray = [130, 49, 28, 10, 36, 57, 83, 34, 102];
-let numIndex = 1;
+//  let numberArray = [130, 49, 28, 10, 36, 57, 83, 34, 102];
+// let numIndex = 8;
 
-function result(numberArray, numIndex) {
+// function result(numberArray, numIndex) {
      
-  return numberArray.at(numIndex)
-}
-console.log(result(numberArray, numIndex));
+//   return numberArray.at(numIndex)
+// }
+// console.log(result(numberArray, numIndex));
  
- */
+ 
  //Exercise11
- /*
- let arrLetters= ['a', 'b', 'b', 'c', 'e', 'r','w','c']
-function doubleNum(arrLetters) {
-    let itemCount={};
-    let maxItem = [];
-    for(let i =0; i<arrLetters.length; i++){
-        console.log('itemCount object :>> ', itemCount);
-       let item = arrLetters[i];
-       console.log('item :>> ', item);
-
-       itemCount[item] = itemCount[item] + 1 || 1;
-       console.log('itemCount[item] :>> ', itemCount[item]);
-       if(itemCount[item] >= 2){
-        console.log(item);
-        maxItem.push(item)
-       }
-    }
-    return maxItem
-}
-
+ 
+//  let arrLetters= ['a', 'b', 'b', 'c', 'e', 'r','w','c']
+// function doubleNum(arrLetters) {
+//     let maxItem = [];
+//     for(let i =0; i<arrLetters.length; i++){
+//        for(let k=0; k<arrLetters.length; k++){
+// if(!maxItem.includes(arrLetters[i]));
+// maxItem.push(arrayLetters[i])
+//        }
+//     //    itemCount[item] = itemCount[item] + 1 || 1;
+//     //    console.log('itemCount[item] :>> ', itemCount[item]);
+//     //    if(itemCount[item] >= 2){
+//     //     console.log(item);
+//     //     maxItem.push(item)
+//     //    }
+//     // }
+//     return maxItem
+// }
 
 
-}
-console.log(doubleNum(arrLetters));  */
-/* 
+
+// }
+// console.log(doubleNum(arrLetters));  
+
 
 //Exercise12
-let arrThings = ['cat','ball','dog','run','red'];
-let joinThings= arrThings.join();
-function ans(joinThings){
-return joinThings
-}
+// let arrThings = ['cat','ball','dog','run','red'];
+// let joinThings= arrThings.join();
+// function ans(joinThings){
+// return joinThings
+// }
 
-console.log(ans(joinThings));
- */
-/* 
+// console.log(ans(joinThings));
+
+
 //Exercise13
-let animal = [ 'cat', 'dog','bird','snake', 'cow'];
-let rewrite = animal.reverse();
+// let animal = [ 'cat', 'dog','bird','snake', 'cow'];
+// let rewrite = animal.reverse();
 
-function answer(rewrite){
-    return rewrite
-}
-console.log(answer(rewrite
-    )); */
+// function answer(rewrite){
+//     return rewrite
+// }
+// console.log(answer(rewrite
+//     )); 
 
-   /*  //Exercise14
+    //Exercise14
 
-    let alphabeth= ['z','b','w','e','a','b'];
-    let findAlphabeth = alphabeth.sort();
+//     let alphabeth= ['z','b','w','e','a','b'];
+//     let arrangeAlphabeth = alphabeth.sort();
 
-    function answer(findAlphabeth){
-        return findAlphabeth;
-    }
-   console.log( answer(findAlphabeth));
+//     function answer(arrangeAlphabeth){
+//         return arrangeAlphabeth;
+//     }
+//    console.log( answer(arrangeAlphabeth));
 
- */
+ 
 
-   /* //Exercise15
+    //Exercise15
 
-   let peopleNames = ['john', 'steven', 'eve', 'dickson'];
-   function answer(peopleNames){
-    for(let i =0; i<peopleNames.length; i++){
-        console.log(peopleNames[i].toLocaleUpperCase())
-    }
-   return peopleNames
-   }
-   answer(peopleNames); 
+//    let peopleNames = ['john', 'steven', 'eve', 'dickson'];
+//    function answer(peopleNames){
+//     for(let i =0; i<peopleNames.length; i++){
+//         console.log(peopleNames[i].toLocaleUpperCase())
+//     }
+//    return peopleNames
+//    }
+//    answer(peopleNames); 
 
- */
-/* 
+ 
+
 //Exercise16
-let phrase = 'write in an Alphabethical order';
-function answer(phrase){
-    let strg = phrase.split(' ');
-    let longestWord = 0;
-    let word ='';
-    for(let i=0; i<strg.length; i++)
-    {
-        if(longestWord<strg[i].length){
-            longestWord = strg[i].length;
-            word=strg[i];
-        }
-    }
-return word;
-}
-  console.log(answer(phrase)) */
+// let phrase = 'write in an Alphabethical order';
+// function answer(phrase){
+//     let strg = phrase.split(' ');
+//     let longestWord = 0;
+//     let things ='';
+//     for(let i=0; i<strg.length; i++)
+//     {
+//         if(longestWord<strg[i].length){
+//             longestWord = strg[i].length;
+//             things=strg[i];
+//         }
+//     }
+// return things;
+// }
+//   console.log(answer(phrase)) 
 
 //Exercise17
 
-// let arrs = [];
-// function words(arrs) {
+let arrs = [];
+function words(arrs) {
    
-//     let myUl= document.getElementById('band-list');
-//     let myLi = document.getElementById('li')
-//  for(let i=0; i<arrs.length; i++){
-//     myLi = document.createElement('li');
-//     myLi.innerHTML=arrs[i]
-//     myUl.appendChild(myLi);
-//  }
-// return arrs
-// }
-// console.log(words(['Dire Straits','Kansas','Steely Dan','Rita']));
+    let myUl= document.getElementById('band-list');
+    let myLi = document.getElementById('li')
+ for(let i=0; i<arrs.length; i++){
+    myLi = document.createElement('li');
+    myLi.innerHTML=arrs[i]
+    myUl.appendChild(myLi);
+ }
+return arrs
+}
+console.log(words(['Dire streits ','Kansas','Steely Dan','Rita']));
 
 //Exercise18
+
+let myTab = document.createElement('table');
+let tBody = document.createElement('tbody');
+let myTable = document.getElementById('tables')
+
+
+for(let i = 0; i<3; i++){
+  let row = document.createElement('tr')
+  
+  for(let j= 0; j<3; j++){
+    
+    let cell = document.createElement('td')
+    cell.innerText ="abc"
+    cell.setAttribute("class", "red");
+    cell.style.border = '2px solid black';
+    row.appendChild(cell)
+    
+
+  }
+  
+  myTab.appendChild(tBody);
+  tBody.appendChild(row)
+  myTab.style.border = '2px solid black';
+  tBody.style.border = '2px solid black';
+  row.style.border = '2px solid black';
+  
+}
+
+
+myTable.appendChild(myTab)
+console.log(myTab)
 
 
 // function addMultiTable(myBody,myHead){
@@ -289,11 +319,11 @@ return word;
 
 //Exercise 21
 
-// function multiplePara(4,6){
+// function multiplePara(a,b){
     
-// return 4,5
+// return a*b
 // }
-// console.log(multiplePara())
+// console.log(multiplePara(3,4))
 
 //Exercise22
 
@@ -315,42 +345,46 @@ return word;
 
 //Exercise 23
 
-// let characters = ('java');
-// let splitCharacters= characters.split('');
-
-// function changeToNo(splitCharacters) {
-//     for(let i =0; i<splitCharacters.length; i++){
-//         if(splitCharacters[i] == 'a'){
-//             splitCharacters[i]= splitCharacters[i].replace('a', 1)
-//         }
-//     }
-//     return splitCharacters;
+// let arrs = ['Java', 'Ghana','Car']
+// function alphabetPosition(arrs) {
+// let newArrs =[];
+//   for(let i = 0; i<arrs.length; i++){
+//     console.log(arrs[i].replaceAll('a', 1))
+//   }
+//   return newArrs
 // }
-// console.log( changeToNo(splitCharacters));
-
+// alphabetPosition(arrs)
 //Exercise24
 
-//let numbers=[ 4,9,20,30,11];
+// let numbers=[ 4,9,20,30,11,6];
+// function result(numbers){ 
 // let addTotal=0;
-// function sum(t){ 
-// for(let totalValue of numbers){
-//     addTotal+=totalValue
+// for(let i =0; i<numbers.length;i++){
+    
+//    addTotal+=numbers[i];
 // }
 // return addTotal
 // }
-// console.log(sum (addTotal))
+// console.log(result(numbers))
 
-//Exercise24b
+//Exercise24b solution1
 //  let numbers=[ 4,9,20,30,11];
+// let a = Math.min.apply(Math, numbers)
+// console.log(a);
 
-// function sum(numbers){
+//Exercise24b solution2
+// let numbers = [21,5,7,9];
+// let result = numbers[0];
+// function smallestNum(numbers){ 
 
-// let smallestNum = Math.min(...numbers)
-// return smallestNum
-
+// for(let i=0; i<numbers.length; i++){
+//     if(numbers[i]< result){
+//         result=numbers[i]
+//     }
 // }
-
-// console.log(sum(numbers))
+//     return result
+// }
+// console.log(smallestNum(numbers))
 
 //Exercise25
 
